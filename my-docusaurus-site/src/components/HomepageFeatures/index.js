@@ -1,64 +1,51 @@
+import React from 'react';
 import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import styles from './index.module.css';
+import { FaRocket, FaBook, FaQuestionCircle, FaDownload } from 'react-icons/fa';
 
-const FeatureList = [
+// 定义卡片数据（对应你的“新手入门、核心教程”等）
+const cardData = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    icon: '🚀', // 可替换为 SVG 图标
+    title: '新手入门',
+    description: '从零开始了解基础操作，快速上手',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    icon: '📚',
+    title: '核心教程',
+    description: '详细的功能讲解和实战案例',
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    icon: '❓',
+    title: '常见问题',
+    description: '解决使用过程中遇到的各类问题',
+  },
+  {
+    icon: '📥',
+    title: '资源下载',
+    description: '相关工具、插件和素材下载',
   },
 ];
 
-function Feature({Svg, title, description}) {
+export default function Home() {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <main className={clsx('container', styles.mainContainer)}>
+      {/* 标题区域 */}
+      <div className={styles.titleSection}>
+        <h1 className={styles.title}>简单介绍</h1>
+        <div className={styles.titleLine}></div>
       </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
 
-export default function HomepageFeatures() {
-  return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
+      {/* 卡片区域 */}
+      <div className={styles.cardGrid}>
+        {cardData.map((card, index) => (
+          <div key={index} className={styles.card}>
+            <div className={styles.cardIcon}>{card.icon}</div>
+            <h3 className={styles.cardTitle}>{card.title}</h3>
+            <p className={styles.cardDesc}>{card.description}</p>
+          </div>
+        ))}
       </div>
-    </section>
+    </main>
   );
 }

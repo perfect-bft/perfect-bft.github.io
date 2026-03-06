@@ -1,0 +1,94 @@
+---
+title: 首页
+sidebar_label: 首页
+sidebar_position: 1
+---
+
+# 产品展示
+
+<div className="tip-box">
+  <div className="tip-header">
+    <span className="tip-icon">💡</span>
+    <span className="tip-label">提示</span>
+  </div>
+  <p className="tip-content">
+  以下所有产品都可以选配多种颜色款式，具体可以咨询我们的业务同事📞📞📞
+  </p>
+</div>
+
+import ImageCarousel from '@site/src/components/ImageCarousel/ImageCarousel';
+
+<ImageCarousel
+  images={[
+    {
+      src: '/images/轮播/T-01-jin.jpg',
+      alt: '自定义图片1',
+      title: 'T01土豪金',
+      titleColor: '#FFD700' // 土豪金颜色
+    },
+    {
+      src: '/images/轮播/F-02-hui.jpg',
+      alt: '示例图片2',
+      title: 'F02太空灰',
+      titleColor: '#FFD700' // 太空灰颜色
+    },
+    {
+      src: '/images/轮播/T-02-jin.jpg',
+      alt: '自定义图片1',
+      title: 'T02土豪金',
+      titleColor: '#FFD700'
+    },
+    {
+      src: '/images/轮播/F-02-lcd.jpg',
+      alt: '自定义图片1',
+      title: 'F02太空灰-LCD',
+      titleColor: '#FFD700'
+    },
+    {
+      src: '/images/轮播/P-01-jin.jpg',
+      alt: '自定义图片1',
+      title: 'P01土豪金',
+      titleColor: '#FFD700'
+    },
+    {
+      src: '/images/轮播/P-02-jin.jpg',
+      alt: '自定义图片1',
+      title: 'P02土豪金',
+      titleColor: '#FFD700'
+    },
+    {
+      src: '/images/轮播/F-01-hui.jpg',
+      alt: '自定义图片1',
+      title: 'F01太空灰',
+      titleColor: '#FFD700'
+    },
+    {
+      src: '/images/轮播/P-03-jin.jpg',
+      alt: '自定义图片1',
+      title: 'P03土豪金',
+      titleColor: '#FFD700'
+    },
+    {
+      src: '/images/轮播/P-04-jin.jpg',
+      alt: '自定义图片1',
+      title: 'P04土豪金',
+      titleColor: '#FFD700'
+    },
+    {
+      src: '/images/轮播/F-04-hui.jpg',
+      alt: '示例图片3',
+      title: 'F04太空灰',
+      titleColor: '#FFD700'
+    },
+    {
+      src: '/images/轮播/TD-01-jin.jpg',
+      alt: '示例图片3',
+      title: 'TD01土豪金',
+      titleColor: '#FFD700'
+    }
+  ]}
+  autoPlayInterval={3000}
+  width="90%"
+  height="450px"
+  showTitle={true}
+/>
