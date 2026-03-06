@@ -3,7 +3,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  // 核心必填项1111
+  // 核心必填项1111111111
   title: '资料站',
   tagline: '最全面最详细的资料站',
   favicon: 'img/favicon2.ico',
