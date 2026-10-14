@@ -1,0 +1,65 @@
+/* 整体容器 */
+.downloadSection {
+  margin: 2rem 0;
+}
+
+/* 标题行（图标+文字） */
+.titleRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.titleRow .icon {
+  font-size: 1.5rem;
+}
+
+.titleRow .title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--ifm-color-emphasis-900);
+  margin: 0;
+}
+
+/* 分隔线 */
+.divider,
+.bottomDivider {
+  height: 1px;
+  background-color: var(--ifm-color-emphasis-300);
+  margin: 1rem 0;
+}
+
+/* 下载链接（核心对齐样式） */
+.downloadLink {
+  display: flex;          /* Flex布局 */
+  align-items: center;    /* 垂直居中（解决对齐问题） */
+  gap: 0.75rem;           /* 图标和文字间距 */
+  padding: 0.875rem 1.25rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 0.75rem;
+  background-color: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-emphasis-800);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  word-break: break-all;
+}
+
+/* 鼠标悬浮效果 */
+.downloadLink:hover {
+  border-color: var(--ifm-color-primary);
+  background-color: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-primary);
+}
+
+/* 图标样式（防止压缩） */
+.linkIcon {
+  flex-shrink: 0;         /* 图标不被压缩 */
+  color: var(--ifm-color-emphasis-600);
+  margin: 0;
+  padding: 0;
+}
+
+.downloadLink:hover .linkIcon {
+  color: var(--ifm-color-primary);
+}

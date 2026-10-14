@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 250" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <style>
+    .box{fill:#e8f0fe;stroke:#4285f4;stroke-width:1.5;}
+    .num{fill:#4285f4;}
+    .ntxt{fill:#ffffff;font-size:16px;font-weight:700;}
+    .title{fill:#1f2937;font-size:14px;font-weight:700;}
+    .sub{fill:#4b5563;font-size:11px;}
+    .arrow{stroke:#9aa3af;stroke-width:2;fill:none;marker-end:url(#ah);}
+    .cap{fill:#6b7280;font-size:12px;}
+  </style>
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#9aa3af"/>
+    </marker>
+  </defs>
+
+  <text x="460" y="30" text-anchor="middle" class="cap">一码App 停车缴费流程（绑定车牌后）</text>
+
+  <!-- boxes -->
+  <!-- 1 -->
+  <rect class="box" x="15" y="70" width="130" height="95" rx="10"/>
+  <circle class="num" cx="35" cy="100" r="13"/><text x="35" y="105" text-anchor="middle" class="ntxt">1</text>
+  <text x="55" y="105" class="title">绑定车牌</text>
+  <text x="30" y="132" class="sub">我的→车辆管理</text>
+  <text x="30" y="148" class="sub">添加车牌号</text>
+
+  <!-- 2 -->
+  <rect class="box" x="170" y="70" width="130" height="95" rx="10"/>
+  <circle class="num" cx="190" cy="100" r="13"/><text x="190" y="105" text-anchor="middle" class="ntxt">2</text>
+  <text x="210" y="105" class="title">入口扫码</text>
+  <text x="185" y="132" class="sub">生成二维码</text>
+  <text x="185" y="148" class="sub">对准入口设备</text>
+
+  <!-- 3 -->
+  <rect class="box" x="325" y="70" width="130" height="95" rx="10"/>
+  <circle class="num" cx="345" cy="100" r="13"/><text x="345" y="105" text-anchor="middle" class="ntxt">3</text>
+  <text x="365" y="105" class="title">进场停车</text>
+  <text x="340" y="132" class="sub">闸机开启</text>
+  <text x="340" y="148" class="sub">停放车辆</text>
+
+  <!-- 4 -->
+  <rect class="box" x="480" y="70" width="130" height="95" rx="10"/>
+  <circle class="num" cx="500" cy="100" r="13"/><text x="500" y="105" text-anchor="middle" class="ntxt">4</text>
+  <text x="520" y="105" class="title">离场选车场</text>
+  <text x="495" y="132" class="sub">打开一码App</text>
+  <text x="495" y="148" class="sub">选择停车场</text>
+
+  <!-- 5 -->
+  <rect class="box" x="635" y="70" width="130" height="95" rx="10"/>
+  <circle class="num" cx="655" cy="100" r="13"/><text x="655" y="105" text-anchor="middle" class="ntxt">5</text>
+  <text x="675" y="105" class="title">在线支付</text>
+  <text x="650" y="132" class="sub">计算停车费</text>
+  <text x="650" y="148" class="sub">生成离场二维码</text>
+
+  <!-- 6 -->
+  <rect class="box" x="790" y="70" width="130" height="95" rx="10"/>
+  <circle class="num" cx="810" cy="100" r="13"/><text x="810" y="105" text-anchor="middle" class="ntxt">6</text>
+  <text x="830" y="105" class="title">扫码出场</text>
+  <text x="805" y="132" class="sub">出口扫码</text>
+  <text x="805" y="148" class="sub">闸机开启离场</text>
+
+  <!-- arrows -->
+  <line class="arrow" x1="145" y1="117" x2="168" y2="117"/>
+  <line class="arrow" x1="300" y1="117" x2="323" y2="117"/>
+  <line class="arrow" x1="455" y1="117" x2="478" y2="117"/>
+  <line class="arrow" x1="610" y1="117" x2="633" y2="117"/>
+  <line class="arrow" x1="765" y1="117" x2="788" y2="117"/>
+</svg>

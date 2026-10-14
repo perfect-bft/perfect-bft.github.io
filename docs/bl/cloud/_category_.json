@@ -1,0 +1,10 @@
+{
+  "label": "泊链平台",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "className": "menu__link--with-icon",
+  "customProps": {
+    "icon": "📚"
+  }
+}
