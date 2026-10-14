@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-parking-boss/program/miniprogram" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">3.1 微信小程序使用说明 | 资料站</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://perfect-bft.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://perfect-bft.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://perfect-bft.github.io/docs/parking-boss/program/miniprogram/"><meta data-rh="true" property="og:locale" content="zh_Hans"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="3.1 微信小程序使用说明 | 资料站"><meta data-rh="true" name="description" content="停车Boss微信小程序使用说明"><meta data-rh="true" property="og:description" content="停车Boss微信小程序使用说明"><link data-rh="true" rel="icon" href="/img/favicon2.ico"><link data-rh="true" rel="canonical" href="https://perfect-bft.github.io/docs/parking-boss/program/miniprogram/"><link data-rh="true" rel="alternate" href="https://perfect-bft.github.io/docs/parking-boss/program/miniprogram/" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://perfect-bft.github.io/docs/parking-boss/program/miniprogram/" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"停车Boss","item":"https://perfect-bft.github.io/docs/parking-boss/group-intro"},{"@type":"ListItem","position":2,"name":"3. 小程序","item":"https://perfect-bft.github.io/docs/category/3-小程序"},{"@type":"ListItem","position":3,"name":"3.1 微信小程序使用说明","item":"https://perfect-bft.github.io/docs/parking-boss/program/miniprogram"}]}</script><script src="/js/img-modal.js" defer="defer"></script><link rel="stylesheet" href="/assets/css/styles.cac02cca.css">
+<script src="/assets/js/runtime~main.0a071f11.js" defer="defer"></script>
+<script src="/assets/js/main.c8073e35.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/tubiao.jpg"><div role="region" aria-label="跳到主要内容"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/tubiao.jpg" alt="资料站Logo" class="themedComponent_mlkZ themedComponent--light_NVdE" style="width:24px;height:24px;object-fit:contain"><img src="/img/tubiao.jpg" alt="资料站Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU" style="width:24px;height:24px;object-fit:contain"></div><b class="navbar__title text--truncate">资料站</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/首页/">首页</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="切换浅色/暗黑模式（当前为system mode）"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="搜索" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="theme-layout-navbar-sidebar navbar-sidebar"><div class="navbar-sidebar__brand"><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/tubiao.jpg" alt="资料站Logo" class="themedComponent_mlkZ themedComponent--light_NVdE" style="width:24px;height:24px;object-fit:contain"><img src="/img/tubiao.jpg" alt="资料站Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU" style="width:24px;height:24px;object-fit:contain"></div><b class="navbar__title text--truncate">资料站</b></a><div class="toggle_vylO margin-right--md"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="切换浅色/暗黑模式（当前为system mode）"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><button type="button" aria-label="关闭导航栏" class="clean-btn navbar-sidebar__close"><svg viewBox="0 0 15 15" width="21" height="21"><g stroke="var(--ifm-color-emphasis-600)" stroke-width="1.2"><path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"></path></g></svg></button></div><div class="navbar-sidebar__items"><div class="theme-layout-navbar-sidebar-panel navbar-sidebar__item menu"><ul class="menu__list"><li class="menu__list-item"><a aria-current="page" class="menu__link menu__link--active" href="/docs/首页/">首页</a></li></ul></div><div class="theme-layout-navbar-sidebar-panel navbar-sidebar__item menu" inert=""><button type="button" class="clean-btn navbar-sidebar__back">← 回到主菜单</button></div></div></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="文档侧边栏" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item sidebar-icon-home"><a class="menu__link" href="/docs/首页/"><span title="首页" class="linkLabel_WmDU">首页</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item sidebar-icon-bell"><div class="menu__list-item-collapsible"><a class="categoryLink_m60s menu__link menu__link--sublist" href="/docs/intro/"><span title="网站公告" class="categoryLinkLabel_V03G">网站公告</span></a><button aria-label="折叠侧边栏分类 &#x27;网站公告&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item sidebar-icon-bullhorn"><a class="menu__link" tabindex="0" href="/docs/announcement/update-notice/"><span title="更新公告" class="linkLabel_WmDU">更新公告</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item sidebar-icon-help"><a class="menu__link" tabindex="0" href="/docs/intro/"><span title="网站使用方法" class="linkLabel_WmDU">网站使用方法</span></a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item sidebar-icon-camera"><a class="menu__link" href="/docs/gallery/"><span title="案例相册" class="linkLabel_WmDU">案例相册</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed sidebar-icon-car"><div class="menu__list-item-collapsible"><a class="categoryLink_m60s menu__link menu__link--sublist" href="/docs/category/智慧通行/"><span title="智慧通行" class="categoryLinkLabel_V03G">智慧通行</span></a><button aria-label="展开侧边栏分类 &#x27;智慧通行&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item sidebar-icon-briefcase"><div class="menu__list-item-collapsible"><a class="categoryLink_m60s menu__link menu__link--sublist menu__link--active" href="/docs/parking-boss/group-intro/"><span title="停车Boss" class="categoryLinkLabel_V03G">停车Boss</span></a><button aria-label="折叠侧边栏分类 &#x27;停车Boss&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed sidebar-icon-cloud"><div class="menu__list-item-collapsible"><a class="categoryLink_m60s menu__link menu__link--sublist" tabindex="0" href="/docs/category/1-上云/"><span title="1. 上云" class="categoryLinkLabel_V03G">1. 上云</span></a><button aria-label="展开侧边栏分类 &#x27;1. 上云&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed sidebar-icon-gear"><div class="menu__list-item-collapsible"><a class="categoryLink_m60s menu__link menu__link--sublist" tabindex="0" href="/docs/category/2-功能说明/"><span title="2. 功能说明" class="categoryLinkLabel_V03G">2. 功能说明</span></a><button aria-label="展开侧边栏分类 &#x27;2. 功能说明&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item sidebar-icon-program"><div class="menu__list-item-collapsible"><a class="categoryLink_m60s menu__link menu__link--sublist menu__link--active" tabindex="0" href="/docs/category/3-小程序/"><span title="3. 小程序" class="categoryLinkLabel_V03G">3. 小程序</span></a><button aria-label="折叠侧边栏分类 &#x27;3. 小程序&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/parking-boss/program/miniprogram/"><span title="3.1 微信小程序使用说明" class="linkLabel_WmDU">3.1 微信小程序使用说明</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed sidebar-icon-question"><div class="menu__list-item-collapsible"><a class="categoryLink_m60s menu__link menu__link--sublist" tabindex="0" href="/docs/category/4-常见问题/"><span title="4. 常见问题" class="categoryLinkLabel_V03G">4. 常见问题</span></a><button aria-label="展开侧边栏分类 &#x27;4. 常见问题&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed sidebar-icon-computer"><div class="menu__list-item-collapsible"><a class="categoryLink_m60s menu__link menu__link--sublist" href="/docs/local-software/group-intro/"><span title="本地软件" class="categoryLinkLabel_V03G">本地软件</span></a><button aria-label="展开侧边栏分类 &#x27;本地软件&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed sidebar-icon-unattended"><div class="menu__list-item-collapsible"><a class="categoryLink_m60s menu__link menu__link--sublist" href="/docs/category/无人值守/"><span title="无人值守" class="categoryLinkLabel_V03G">无人值守</span></a><button aria-label="展开侧边栏分类 &#x27;无人值守&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed sidebar-icon-wrench"><div class="menu__list-item-collapsible"><a class="categoryLink_m60s menu__link menu__link--sublist" href="/docs/category/硬件相关/"><span title="硬件相关" class="categoryLinkLabel_V03G">硬件相关</span></a><button aria-label="展开侧边栏分类 &#x27;硬件相关&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed sidebar-icon-download-space"><div class="menu__list-item-collapsible"><a class="categoryLink_m60s menu__link menu__link--sublist" href="/docs/hardware/download-space/"><span title="下载空间" class="categoryLinkLabel_V03G">下载空间</span></a><button aria-label="展开侧边栏分类 &#x27;下载空间&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed sidebar-icon-construction"><div class="menu__list-item-collapsible"><a class="categoryLink_m60s menu__link menu__link--sublist" href="/docs/hardware/download-space/construction/"><span title="施工相关" class="categoryLinkLabel_V03G">施工相关</span></a><button aria-label="展开侧边栏分类 &#x27;施工相关&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="页面路径"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="主页面" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/docs/parking-boss/group-intro/"><span>停车Boss</span></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/docs/category/3-小程序/"><span>3. 小程序</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">3.1 微信小程序使用说明</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">本页总览</button></div><div class="theme-doc-markdown markdown"><header><h1>3.1 微信小程序使用说明</h1></header><p>停车Boss微信小程序使用说明</p>
+<p>本说明书介绍停车Boss微信小程序的登录、车场配置、车场数据查询与“我的”四大模块的操作方法，适用于运营端与车主端。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="一小程序">一、小程序<a href="#一小程序" class="hash-link" aria-label="一、小程序的直接链接" title="一、小程序的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">扫二维码或在小程序搜索【停车Boss】进入小程序。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-001" src="/assets/images/img-001-f859837b613b4909da831e9d64294b3a.jpg" width="1280" height="1280" class="img_ev3q"></p></div>
+<ul>
+<li class="">进入登录界面，输入账号、密码，点击【登录】。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-002" src="/assets/images/img-002-43b7c91d581b4cb666f2a3f78d282108.png" width="519" height="978" class="img_ev3q"></p></div>
+<ul>
+<li class="">统计：查看车场设备、今日车次、今日收费、车场排名情况。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-004" src="/assets/images/img-004-cece4e33f4f0f8c4c996025f87ab68e4.jpg" width="463" height="874" class="img_ev3q"></p></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="二配置">二、配置<a href="#二配置" class="hash-link" aria-label="二、配置的直接链接" title="二、配置的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-组织机构">1. 组织机构<a href="#1-组织机构" class="hash-link" aria-label="1. 组织机构的直接链接" title="1. 组织机构的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">查看组织机构，对城市、集团、分公司、项目进行新增、编辑、删除操作。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-005" src="/assets/images/img-005-f4a04fa5d73df015e4d4c586ab99ef96.jpg" width="419" height="790" class="img_ev3q"></p></div>
+<ul>
+<li class="">新增角色，配置权限，添加账号。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-006" src="/assets/images/img-006-0849579bbc75e032d31dbc8a0258ac1c.jpg" width="413" height="778" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-车场配置">2. 车场配置<a href="#2-车场配置" class="hash-link" aria-label="2. 车场配置的直接链接" title="2. 车场配置的直接链接" translate="no">​</a></h3>
+<p>从项目列表点击【配置】，进入对应车场配置、商户管理、优惠券的界面。</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-007" src="/assets/images/img-007-100b4ae49ba1d3e13196e28648cd2a1c.jpg" width="525" height="991" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-收费配置">3. 收费配置<a href="#3-收费配置" class="hash-link" aria-label="3. 收费配置的直接链接" title="3. 收费配置的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">新增收费标准，收费类型有二十四小时、计次收费、时间段收费、白天夜晚跨时段计费。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-008" src="/assets/images/img-008-7b805ae2d0282b1e36434d6413687316.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<ul>
+<li class="">二十四小时收费，点击图标展开收费金额、小时，可进行设置。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-009" src="/assets/images/img-009-df4e21b83a72a501871cb2491b8bf3d9.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<p>① 收费说明：如一小时 1 块，封顶 20 元，免费时间 30 分钟。首停分钟设置为 0；若设置为 60 则第一小时免费，从第二小时算起。
+② 停车时间包含免费分钟：开启后一小时 30 分钟收费 2 元，不开启为 1 元。
+③ 封顶收费含过夜费：设置过夜费后，封顶里是否含过夜费用；不含则为封顶加上晚上过夜时间。
+④ 是否启用多次进出按天封顶：启用后，同一辆车当天进出按天封顶。
+⑤ 多次进出按天封顶方式：停车 24 小时、自然天 24 小时。
+⑥ 多次停车每日收费限制金额：除封顶外，多次进出是否设置限额。</p>
+<ul>
+<li class="">计次收费：输入收费标准名称，设置金额即可。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-010" src="/assets/images/img-010-371c6de7fdb37bf63a50eebe74e6db28.jpg" width="735" height="672" class="img_ev3q"></p></div>
+<ul>
+<li class="">时间段收费：</li>
+</ul>
+<p>① 将时间按星期划分，可设置高峰与平时各异收费标准。
+② 跨天收费涉及隔天收费标准不同，所以设置指定金额，例如过晚上 24 点为跨天。
+③ 超时收费（不受封顶限制）：开启后方可设置多长时间后每半小时收多少。
+④ 注意：整个收费标准从星期一 0 点设置到周日晚 24 点，最小单位为半小时。</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-011" src="/assets/images/img-011-39355b7df7694e293013be32c8521134.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-012" src="/assets/images/img-012-92c1d35c09d24a765ec5398a039d528d.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<ul>
+<li class="">白天夜晚跨时段计费：设置 2 个时段收费标准，类似于时间段收费标准。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-013" src="/assets/images/img-013-907a2f1e2463ce337c89e0035ef2d11b.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<ul>
+<li class="">节假日收费标准：</li>
+</ul>
+<p>① 点击新增后填写节假日收费标准名称，填写折扣（百分制，例如填写 90 则按现行临时车标准打 9 折）。
+② 设置开启时间与结束时间后确认保存，到达设置时间自动启用。</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-014" src="/assets/images/img-014-008113caec4075e8412c0708e5caef68.jpg" width="1026" height="946" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-车场配置">4. 车场配置<a href="#4-车场配置" class="hash-link" aria-label="4. 车场配置的直接链接" title="4. 车场配置的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">初始余位：设置显示屏余位功能。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-015" src="/assets/images/img-015-45940831cfa31fc8e7bca85cebc8b531.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<ul>
+<li class="">新增车场，不同车牌设置不同收费标准。</li>
+<li class="">所属父车场：创建大小车场，输入大车场 ID。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-016" src="/assets/images/img-016-e65215a24b3b7a5684a3b875c8a6bdba.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<ul>
+<li class="">独立计算费用：默认开启，关闭后小车场不独立收费，统一到大车场出场收费。</li>
+<li class="">过期月租车处理：共有七种过期车辆设置模式。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-017" src="/assets/images/img-017-65de05d38b47a7ae1edf3d27a8a32879.jpg" width="914" height="461" class="img_ev3q"></p></div>
+<ul>
+<li class="">允许停留时间：支付识别开闸后允许停留时间。</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-车道配置">5. 车道配置<a href="#5-车道配置" class="hash-link" aria-label="5. 车道配置的直接链接" title="5. 车道配置的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">新增车道类型分：入口、出口、入口虚拟、车位相机、共用闸机。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-018" src="/assets/images/img-018-63c010b82422c1dd21d32d7436d63f85.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<ul>
+<li class="">临时车通行方式。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-019" src="/assets/images/img-019-f44dff373cc81f1969b5741093e1c9f5.jpg" width="964" height="331" class="img_ev3q"></p></div>
+<ul>
+<li class="">车牌通行权限：默认全部勾选，取消勾选对应类型车牌无法进出。</li>
+<li class="">序列号可手动输入，也可扫一扫自动填充。</li>
+<li class="">物联卡 ID：建议去营业厅开通，不会造成网速慢问题；插卡后与有线网实现双重保障，有线网断网后 10 秒开始启用物联卡，并发送通知到管理员公众号提醒。</li>
+<li class="">相机授权：选择启用。</li>
+<li class="">黄牌开双闸：根据不同车场设计，选择是否开启，默认为否。</li>
+<li class="">车道类型选择出口时内容有所变动。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-020" src="/assets/images/img-020-d9e722e8001307df05ffd7c37614a4e2.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<ul>
+<li class="">是否开启现金支付：配套岗亭端使用，可收现金。</li>
+<li class="">正在支付禁行通道：使用场景同进同出，绑定后出口正在支付，入口来车会语音播报提示退后等待出口支付完成再入场。</li>
+<li class="">设置借道时间、借道金额：在免费时间内生效，用于临时入场且停留时间较短的车辆。</li>
+<li class="">车道配置好后设置滚动字幕，点击控制卡配置。</li>
+<li class="">车牌识别方式：虚拟线圈与虚拟线圈加地感触发二选一，第二种情况有施工要求。</li>
+<li class="">控制卡类型：控制卡对接了科发、DT、FK TTS 语音版。</li>
+<li class="">动态二维码：显示屏可开启动态二维码，在二、三、四行显示。</li>
+<li class="">延时关闸：开闸后无关闸信号可设置时间关闸。</li>
+<li class="">有线网检测地址：填写当地宽带营业厅检测地址，例如电信填写 <code>114.114.114.114</code> 或 <code>223.5.5.5</code>，作为断网公众号通知提醒功能。</li>
+<li class="">禁行时段：类型选择有临时车、所有车，添加的时间为禁行时段，从周一 0 时至周日 24 时，最小单位 30 分钟。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-021" src="/assets/images/img-021-a9438b4864c5db6f066b7691fe047747.jpg" width="510" height="962" class="img_ev3q"></p></div>
+<ul>
+<li class="">点击首行内容，可填写显示屏第一、二、三行内容，自定义文字。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-022" src="/assets/images/img-022-9fbc2e6684c9801568874de2e7050589.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-023" src="/assets/images/img-023-c89b4831c5648788d8564b74b3ecdb70.jpg" width="735" height="1192" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-公共配置">6. 公共配置<a href="#6-公共配置" class="hash-link" aria-label="6. 公共配置的直接链接" title="6. 公共配置的直接链接" translate="no">​</a></h3>
+<p>（1）公共配置主要对无牌车配置、月租车配置、入场配置、出场配置、支付配置、其它配置等。</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-024" src="/assets/images/img-024-e53ddc383e957e28efadabb281010298.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<p>（2）无牌车配置：</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-025" src="/assets/images/img-025-3dab8c23e5aef622071f95f64a4978d7.jpg" width="1036" height="546" class="img_ev3q"></p></div>
+<p>① 启用无牌车：开启后，无牌车可以选择扫码进出场。
+② 无牌车地感验证：开启后现场有真实有效车辆才可触发无牌车开关，通过扫码不能直接开闸，避免车主用手机扫码输入、实际无车进场。
+③ 无牌车进出场模式：小程序、短信、直接开闸三种模式，默认短信；小程序、短信均按 0.1 元/条收费，平台免费提供 100 条，后续自费。</p>
+<p>（3）月租车配置：</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-026" src="/assets/images/img-026-aaf5b84a7e551c134d4d8db2a76e5a96.jpg" width="1044" height="781" class="img_ev3q"></p></div>
+<p>① 月租车满位入场：开启后，车场无余位情况下月租车仍正常入场。
+② 自动删除过期月租车：默认开启 3 个月，超过设置时长自动删除。
+③ 月租车申请：开启后，车主可自行扫车场月租申请码登记上报月租车信息。
+④ 月租超位模式：在一位多车情况下，第二台（或多台）月租车要进车场，可选全程按临时车收费或场内转月租。</p>
+<p>（4）入场配置：</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-027" src="/assets/images/img-027-340a5c468dddc5366b23b1b58a88ae5b.jpg" width="1039" height="901" class="img_ev3q"></p></div>
+<p>① 允许排队入场：默认开启，车位已满时车辆可在入口等待，出口有车出去后入口不用倒车、自动开闸。
+② 最小入场确认时间：针对单通道，出场时避免车速过慢或车辆抖动重新识别尾部车牌造成异常开闸。
+③ 最大出场确认时间：避免出口相机一直识别离出口较近停车位造成异常开闸，以及刚入场就到出口识别造成误识别。
+④ 未入场缴费：没有入场记录，预支付指定保证金。
+⑤ 临时车扫码确认时间：设置扫码支付时间，超时订单失效需重新扫码。
+⑥ 允许重复进出场：例如缴费后道闸开闸时间已过、落闸后车辆后退重新识别又可重新开闸（举例：商户住店车在住店时间内可重复进出场）。</p>
+<p>（5）出场配置：</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-028" src="/assets/images/img-028-7aa3142ff675478ab8031150736f26fa.jpg" width="1039" height="771" class="img_ev3q"></p></div>
+<p>① 出口返场逃费：车辆入场后又到出口识别、再倒车停到车位；未开启时会丢失入场记录、提示无入场记录，此时系统提示缴纳保证金出场，不开启保证金模式则直接免费出场。
+② 允许黑名单车辆出场：在场黑名单车辆允许出场。
+③ 相机离线后所有车辆放行：默认不开，离线后管理员可用手机登录公众号、人工拍照上传照片进出（应对断电、断网状态）。
+④ 出口压地感后允许输入车牌出场：用于扫码出场，避免利用相机识别照片错误开闸。
+⑤ 滞留车辆时间定义：入场超过设定时间，自动归为滞留车辆、可手动盘存，该车辆不占用车场余位。</p>
+<p>（6）支付配置：</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-029" src="/assets/images/img-029-3851dd2119fe59f06219ee5ca44494a6.jpg" width="1046" height="1444" class="img_ev3q"></p></div>
+<p>① 联合追缴：在同一账号下，A 停车场逃费记录上传云平台后，该城市所有车场可入口补缴该笔费用，金额回到 A 停车场账户。
+② 异常自动补缴确认：开启后弹出自动补缴确认金额，小于等于填写金额的订单自动进入补缴后台，车辆再进入车场需补缴上次欠费订单后入场。
+③ 月租入口补缴：开启后，过期月租出口未支付进入异常记录，确认补缴后待下次车辆入场需补缴上次欠费订单后再入场。
+④ 保证金自动退款：开启后无入场记录车辆出场的保证金隔天自动退款。
+⑤ 无牌车自动退款：开启后无牌车预付金额在车辆出场后隔天自动退款。
+⑥ 无牌车预支付单次金额：填写金额（元），无牌车扫码进入需交预付保证金。
+⑦ 缴费状态异常等待时间：出入口识别车牌后，在设定时间内不扫码支付则需重新后退识别。
+⑧ 自动补缴确认金额：功能属于异常补缴确认功能的补充项。
+⑨ 新能源日内免费时长（小时）：设置新能源车辆指定时长内免费通行。</p>
+<ul>
+<li class="">其它配置：</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-030" src="/assets/images/img-030-7c15332132dd4bd349b97148dcaa1c6d.jpg" width="1036" height="1031" class="img_ev3q"></p></div>
+<p>① 允许锁车：开启后月租车可设置开闸密码，进出需扫码填写密码开闸；未设密码则自动识别出场。
+② 特殊车场：针对相机无法识别牌照的特殊车场，默认不开启。
+③ 地感验证：辅助识别功能，默认不开，详情可咨询停车Boss公司技术人员。
+④ 预设车辆：提高相机识别率与识别速度，提前设置该城市车牌文字。
+⑤ 在场车辆计算模式：扫码车辆或总车辆。
+⑥ 不确定在场记录清理时间：不确定在场自动删除入场记录。</p>
+<ul>
+<li class="">音量及广告页面配置：</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-031" src="/assets/images/img-031-16d44f24841481081b1660c321a7f633.jpg" width="1034" height="894" class="img_ev3q"></p></div>
+<p>① 音量设置：设置白天与晚上不同时间播报音量。
+② 广告配置：配置后所有扫码页面生效。
+③ 液晶屏广告图片：配置后显示在液晶屏上。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-二维码配置">7. 二维码配置<a href="#7-二维码配置" class="hash-link" aria-label="7. 二维码配置的直接链接" title="7. 二维码配置的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">创建车道后生成对应二维码：预支付码、入口码、出口码、月租申请码。二维码查看弹窗，点击生成图片并下载，直接下载到本地。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-032" src="/assets/images/img-032-81ea9813b6505664bdb7a71746eb0a6a.jpg" width="1034" height="1249" class="img_ev3q"></p></div>
+<ul>
+<li class="">预付折扣码：点击【配置停车优惠码】，选择车场、收费标准，点击确认，生成预付折扣码二维码，点击【生成图片并下载】供打印使用。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-033" src="/assets/images/img-033-5328729fc087e88695d67e64410b1a60.jpg" width="1034" height="1849" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="8-相机配置">8. 相机配置<a href="#8-相机配置" class="hash-link" aria-label="8. 相机配置的直接链接" title="8. 相机配置的直接链接" translate="no">​</a></h3>
+<p>相机状态绿色代表在线，红色代表掉线；点击主相机进入相机网页端调试界面。</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-034" src="/assets/images/img-034-3aeaf58b07d721a822a093f84065c434.jpg" width="511" height="964" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="9-商户管理">9. 商户管理<a href="#9-商户管理" class="hash-link" aria-label="9. 商户管理的直接链接" title="9. 商户管理的直接链接" translate="no">​</a></h3>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-035" src="/assets/images/img-035-8dbba5ab92c2522d3ec5e739bc79cccc.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<ul>
+<li class="">绑定后失效时间：指定车牌发券、公众号动态券的有效时间。</li>
+<li class="">是否叠加：同一类型优惠券可选择是否叠加使用（例如小时券、金额券）。</li>
+<li class="">过期是否返还：券设置有效期内未使用是否返还到券库存。</li>
+<li class="">每天最大发放量：例如金额券，避免浪费。</li>
+<li class="">最大车位数：各个商户最大车位数量。</li>
+<li class="">优惠券发放时间段：针对各类商户使用时间设置。</li>
+<li class="">酒店有住店车、钟点房情况，设置离店过夜以及钟点房时间。</li>
+<li class="">车主自助购买：开启状态需车主自行扫码购买优惠券，默认关闭。</li>
+<li class="">添加商户后可查询、修改、删除商户。</li>
+<li class="">先添加优惠券套餐，再绑定套餐，选择对应套餐进行充值。</li>
+<li class="">发放方式有：指定车牌、批次券发放、宴会券发放。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-036" src="/assets/images/img-036-2561062d7ba3209df5aac3bdcde50b4f.jpg" width="461" height="869" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="10-优惠券配置">10. 优惠券配置<a href="#10-优惠券配置" class="hash-link" aria-label="10. 优惠券配置的直接链接" title="10. 优惠券配置的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">设置优惠券套餐：有 7 种券类型——时长券、金额券、次券、住店券、定额券、定时券、折扣券。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-037" src="/assets/images/img-037-79bb42f3baf0333991ee62ccb1c6e01c.jpg" width="1021" height="901" class="img_ev3q"></p></div>
+<p>① 时长券、定时券按时间优惠，区别在于定时券为定制券，设置的优惠时间是固定的。
+② 金额券、定额券按金额抵扣优惠，区别在于定额券为定制券，设置固定的金额面值。
+③ 次券：按次免费。
+④ 折扣券：打折券。
+⑤ 住店券：住店消费，免费停车。</p>
+<ul>
+<li class="">优惠券统计：统计当前车场商户券的使用情况。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-038" src="/assets/images/img-038-5ee2a1bcbc455b42c2dc736186d88ce5.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="三车场数据查询">三、车场数据查询<a href="#三车场数据查询" class="hash-link" aria-label="三、车场数据查询的直接链接" title="三、车场数据查询的直接链接" translate="no">​</a></h2>
+<p>当前车场可从配置的项目列表点击项目名称跳转至车场，自动切换项目名。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-设备管理">1. 设备管理<a href="#1-设备管理" class="hash-link" aria-label="1. 设备管理的直接链接" title="1. 设备管理的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">进入设备管理，可查看车场设备在线状态、心跳时间、操作开关闸、预览视频，手动输入车牌入场、手动选择车牌出场。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-039" src="/assets/images/img-039-8ffb3f27f45cf3a5a05dc759572c94a3.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<ul>
+<li class="">手动出/入场场景（断电、断网状态）：相机离线后所有车辆放行，车场管理员拍照上传照片入场。</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-车辆管理">2. 车辆管理<a href="#2-车辆管理" class="hash-link" aria-label="2. 车辆管理的直接链接" title="2. 车辆管理的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">添加月卡车，车辆类型有月租车、临时车、储值车、免费车、时段限制月租。</li>
+<li class="">可对添加成功的车辆进行【修改】、【查询】、【删除】操作，月租车可操作【延期】。</li>
+<li class="">车主管理：因车主存在多辆车、多个车位的情况，可在车主列表用户下添加车辆，设置是否超位入场、是否一位多车。</li>
+</ul>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-040" src="/assets/images/img-040-b97302ad3d60ba59fb6c225d52219d3d.jpg" width="571" height="1077" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-预付退款">3. 预付退款<a href="#3-预付退款" class="hash-link" aria-label="3. 预付退款的直接链接" title="3. 预付退款的直接链接" translate="no">​</a></h3>
+<p>无牌车手动申请退款列表，点击【退款】，输入退款原因并提交。</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-041" src="/assets/images/img-041-3f0767460eb4a43f019bd7d54cee15ca.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-滞留盘点">4. 滞留盘点<a href="#4-滞留盘点" class="hash-link" aria-label="4. 滞留盘点的直接链接" title="4. 滞留盘点的直接链接" translate="no">​</a></h3>
+<p>入场车辆超过设定时间，自动归为滞留车辆，可手动盘存，该车辆不占用车场余位。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-在场车辆">5. 在场车辆<a href="#5-在场车辆" class="hash-link" aria-label="5. 在场车辆的直接链接" title="5. 在场车辆的直接链接" translate="no">​</a></h3>
+<p>可搜索在场车牌，手动添加车牌、修改车牌，查看在场月租、临时车、余位数量。</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-042" src="/assets/images/img-042-9a95010496a4b9f78b180191a6a2c43b.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-进出记录">6. 进出记录<a href="#6-进出记录" class="hash-link" aria-label="6. 进出记录的直接链接" title="6. 进出记录的直接链接" translate="no">​</a></h3>
+<p>可搜索车牌，查看车辆进、出时间、停留时长、收款类型等信息。</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-043" src="/assets/images/img-043-80e82f9cfab11aca62b545e747eb6f48.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-支付记录">7. 支付记录<a href="#7-支付记录" class="hash-link" aria-label="7. 支付记录的直接链接" title="7. 支付记录的直接链接" translate="no">​</a></h3>
+<p>可搜索车牌，查看车辆支付金额、支付类型等。</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-044" src="/assets/images/img-044-934277fe0c02df45f5078927e3ae7529.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="8-预约车辆">8. 预约车辆<a href="#8-预约车辆" class="hash-link" aria-label="8. 预约车辆的直接链接" title="8. 预约车辆的直接链接" translate="no">​</a></h3>
+<p>针对商户使用，预约对象为商户，商户可自行填写预约车辆信息。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="9-黑名单">9. 黑名单<a href="#9-黑名单" class="hash-link" aria-label="9. 黑名单的直接链接" title="9. 黑名单的直接链接" translate="no">​</a></h3>
+<p>可输入黑名单车牌或车主电话号码，列入黑名单的车辆入场时需车场管理员确认。</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-045" src="/assets/images/img-045-b48ec8de87bdaf08875390f3a1e1209e.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="10-统计报表">10. 统计报表<a href="#10-统计报表" class="hash-link" aria-label="10. 统计报表的直接链接" title="10. 统计报表的直接链接" translate="no">​</a></h3>
+<p>可切换数据表和柱状图，还可分为周报、月报。</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-046" src="/assets/images/img-046-74356a1db9b2f9135f9d5d8f987ca690.jpg" width="1034" height="1949" class="img_ev3q"></p></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="四我的">四、我的<a href="#四我的" class="hash-link" aria-label="四、我的的直接链接" title="四、我的的直接链接" translate="no">​</a></h2>
+<p>可操作修改登录密码、切换账户、问题反馈。</p>
+<div class="img-hover-container"><p><img decoding="async" loading="lazy" alt="img-047" src="/assets/images/img-047-d74663485aaaa8125ecb2275979fd383.jpg" width="592" height="1115" class="img_ev3q"></p></div></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/category/3-小程序/"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">3. 小程序</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/category/4-常见问题/"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">4. 常见问题</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#一小程序" class="table-of-contents__link toc-highlight">一、小程序</a></li><li><a href="#二配置" class="table-of-contents__link toc-highlight">二、配置</a><ul><li><a href="#1-组织机构" class="table-of-contents__link toc-highlight">1. 组织机构</a></li><li><a href="#2-车场配置" class="table-of-contents__link toc-highlight">2. 车场配置</a></li><li><a href="#3-收费配置" class="table-of-contents__link toc-highlight">3. 收费配置</a></li><li><a href="#4-车场配置" class="table-of-contents__link toc-highlight">4. 车场配置</a></li><li><a href="#5-车道配置" class="table-of-contents__link toc-highlight">5. 车道配置</a></li><li><a href="#6-公共配置" class="table-of-contents__link toc-highlight">6. 公共配置</a></li><li><a href="#7-二维码配置" class="table-of-contents__link toc-highlight">7. 二维码配置</a></li><li><a href="#8-相机配置" class="table-of-contents__link toc-highlight">8. 相机配置</a></li><li><a href="#9-商户管理" class="table-of-contents__link toc-highlight">9. 商户管理</a></li><li><a href="#10-优惠券配置" class="table-of-contents__link toc-highlight">10. 优惠券配置</a></li></ul></li><li><a href="#三车场数据查询" class="table-of-contents__link toc-highlight">三、车场数据查询</a><ul><li><a href="#1-设备管理" class="table-of-contents__link toc-highlight">1. 设备管理</a></li><li><a href="#2-车辆管理" class="table-of-contents__link toc-highlight">2. 车辆管理</a></li><li><a href="#3-预付退款" class="table-of-contents__link toc-highlight">3. 预付退款</a></li><li><a href="#4-滞留盘点" class="table-of-contents__link toc-highlight">4. 滞留盘点</a></li><li><a href="#5-在场车辆" class="table-of-contents__link toc-highlight">5. 在场车辆</a></li><li><a href="#6-进出记录" class="table-of-contents__link toc-highlight">6. 进出记录</a></li><li><a href="#7-支付记录" class="table-of-contents__link toc-highlight">7. 支付记录</a></li><li><a href="#8-预约车辆" class="table-of-contents__link toc-highlight">8. 预约车辆</a></li><li><a href="#9-黑名单" class="table-of-contents__link toc-highlight">9. 黑名单</a></li><li><a href="#10-统计报表" class="table-of-contents__link toc-highlight">10. 统计报表</a></li></ul></li><li><a href="#四我的" class="table-of-contents__link toc-highlight">四、我的</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">文档</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/intro/">入门</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">社区</div><ul class="footer__items clean-list"></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">更多</div><ul class="footer__items clean-list"></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 资料站.
+      <br>
+      <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#fff">粤ICP备2026016335号</a></div></div></div></footer></div>
+</body>
+</html>

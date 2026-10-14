@@ -1,0 +1,123 @@
+{
+  "albums": [
+    {
+      "id": "T01",
+      "title": "T01智能AI高清车牌识别机",
+      "cover": "/img/remote/g_5af1790c92_T-01-jin.jpg",
+      "images": [
+        "/img/case/T01/03c33d7455b3a7ebedc3e7befae6a818.jpg",
+        "/img/case/T01/0b3efef0ec17d7b78216002ffa6574e9.jpg",
+        "/img/case/T01/0e0755d6f3dfb11ce212dcb7eff10050.jpg",
+        "/img/case/T01/26c5e9bcb4867aee8bcb30f62fa69e60.jpg",
+        "/img/case/T01/2f83dc7ad5cbc265828217e6efd1be5e.jpg",
+        "/img/case/T01/55b0881de907dbf500551a24d860e699.jpg",
+        "/img/case/T01/5ac45fd15be4f99f3286dd15a4b4e8dd(1)(1).jpg",
+        "/img/case/T01/5ac45fd15be4f99f3286dd15a4b4e8dd(1)(2).jpg",
+        "/img/case/T01/5ac45fd15be4f99f3286dd15a4b4e8dd(1).jpg",
+        "/img/case/T01/5ac45fd15be4f99f3286dd15a4b4e8dd.jpg",
+        "/img/case/T01/a4d79b38cfe90da2045279fb0474c431.jpg",
+        "/img/case/T01/af0046c5ae90e738965a272722fbdf4a.jpg",
+        "/img/case/T01/b8ab79cbccc27867ef9208c86fbb61e3.jpg",
+        "/img/case/T01/c02eb13d8fb5ef3ff3de0f53b92d4502.jpg",
+        "/img/case/T01/e1df2543ebb14c1be2107019e50e2f4a.jpg",
+        "/img/case/T01/fc9feff83a951ccdb6141169ffec3d4a.jpg"
+      ],
+      "count": 16
+    },
+    {
+      "id": "T02",
+      "title": "T02智能AI高清车牌识别机",
+      "cover": "/img/remote/g_aa4d8e3b23_T-02-jin.jpg",
+      "images": [],
+      "count": 0
+    },
+    {
+      "id": "F01",
+      "title": "F01智能AI高清车牌识别机",
+      "cover": "/img/remote/g_7e5d99b493_F-01-hui.jpg",
+      "images": [],
+      "count": 0
+    },
+    {
+      "id": "F02",
+      "title": "F02智能AI高清车牌识别机",
+      "cover": "/img/remote/g_6b7e81feb7_F-02-hui.jpg",
+      "images": [
+        "/img/case/F02/3e22d4c86efccdc81c7a8df0bb80a21e(1).jpg",
+        "/img/case/F02/3e22d4c86efccdc81c7a8df0bb80a21e.jpg",
+        "/img/case/F02/c6653b46fa86c4f8280bb0848e9dbf2f.jpg"
+      ],
+      "count": 3
+    },
+    {
+      "id": "F02-LCD",
+      "title": "F02-LCD智能AI高清车牌识别机",
+      "cover": "/img/remote/g_3e38591618_F-02-lcd.jpg",
+      "images": [
+        "/img/case/F02_LCD/14bbeded8a3affa4ec9260d8241df7b3.jpg",
+        "/img/case/F02_LCD/85bd54978da45e109dc3f839afc93e1f.jpg",
+        "/img/case/F02_LCD/8614086ed5028bb48d47c4bf5834ed4b.jpg",
+        "/img/case/F02_LCD/8c93b84bde595a552be122466654fc39.jpg",
+        "/img/case/F02_LCD/ab02c689cdd97c68d49ea737d982d9e0.jpg",
+        "/img/case/F02_LCD/add737ef85c84ac41f9221de237ed892.jpg",
+        "/img/case/F02_LCD/d07a82337c8bf515938519cf9663bcf4.jpg",
+        "/img/case/F02_LCD/da1033d14e3f8cc94deed93cf091b8e5.jpg",
+        "/img/case/F02_LCD/e6b8ea204f947b856f07e93598ce10f8.jpg"
+      ],
+      "count": 9
+    },
+    {
+      "id": "P01",
+      "title": "P01智能AI高清车牌识别机",
+      "cover": "/img/remote/g_2647372053_P-01-jin.jpg",
+      "images": [],
+      "count": 0
+    },
+    {
+      "id": "P02",
+      "title": "P02智能AI高清车牌识别机",
+      "cover": "/img/remote/g_2a6ff2b6eb_P-02-jin.jpg",
+      "images": [
+        "/img/case/P01_P02/0dabd22c1ac12a3ff0eeb8063526fa57.jpg",
+        "/img/case/P01_P02/0f7736b08411d36677169ecf95c8fffa.jpg",
+        "/img/case/P01_P02/254d15e650f772303d6ffe1bb2514f41.jpg",
+        "/img/case/P01_P02/43d936d2fdd3bbdf297e9cc8156a3b6b.jpg",
+        "/img/case/P01_P02/65242b9d177b431814ea2297765fe00a.jpg",
+        "/img/case/P01_P02/816dc2f19587fe10e899ff6cedd8685f.jpg",
+        "/img/case/P01_P02/90d015ea2a5489fdba01e2e988439e3d.jpg",
+        "/img/case/P01_P02/c21ca3f9e2b3a689487973aa5f05f66e.png",
+        "/img/case/P01_P02/e154ae87e3605d30dd8c6b1356dbfcf4.jpg"
+      ],
+      "count": 9
+    },
+    {
+      "id": "YT001",
+      "title": "YT001智能AI高清车牌识别道闸一体机",
+      "cover": "/img/remote/g_b35da7a7fe_YTJ-jin.jpg",
+      "images": [],
+      "count": 0
+    },
+    {
+      "id": "P03",
+      "title": "P03智能AI无人值守机",
+      "cover": "/img/remote/g_834f52f45c_P-03-jin.jpg",
+      "images": [],
+      "count": 0
+    },
+    {
+      "id": "P04",
+      "title": "P04直流无刷高速道闸",
+      "cover": "/img/remote/g_7cd5d2a3c9_P-04-jin.jpg",
+      "images": [],
+      "count": 0
+    },
+    {
+      "id": "F04",
+      "title": "F04直流无刷高速道闸",
+      "cover": "/img/remote/g_b0cb4dd631_F-04-hui.jpg",
+      "images": [],
+      "count": 0
+    }
+  ],
+  "generatedAt": "2026-10-14T10:37:34.719Z"
+}
