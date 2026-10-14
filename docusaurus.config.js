@@ -78,11 +78,6 @@ const config = {
           position: 'left',
           label: '首页',
         },
-        {
-          href: 'https://github.com/perfect-bft/perfect-bft.github.io',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
